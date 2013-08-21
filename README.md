@@ -2,7 +2,7 @@ AddressConversion
 =================
 
 Unix-like command line	utility that	will	convert	between	three	different	address	types when	an	address of	a	 different	type	is given. Specifications for the utility are as follows: 
-AddressConversion -L|-P|-C [–b offset] [-B [-s bytes]] [-l address] [- p address] [-c address -k sectors -r sectors -t tables -f sectors] 
+<br>AddressConversion -L|-P|-C [–b offset] [-B [-s bytes]] [-l address] [- p address] [-c address -k sectors -r sectors -t tables -f sectors] 
   <br>-L, --logical Calculate the logical address from either the cluster address or the physical address. Either –c or –p must be given. 
   <br>-P, --physical Calculate the physical address from either the cluster address  or the logical address. Either –c or –l must be given. 
   <br>-C, --cluster Calculate the cluster address from either the logical address or  the physical address. Either –l or –p must be given. 
